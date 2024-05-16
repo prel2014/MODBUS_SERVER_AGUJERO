@@ -1,0 +1,23 @@
+{
+    "modbus": {
+        "ip": "200.10.0.8",
+        "ip0": "",
+        "port": 502,
+        "info_name": {
+            "VendorName": "UPAO",
+            "ProductCode": "Control_brazos",
+            "VendorUrl": "https://upao.edu.pe",
+            "ProductName": "Pymodbus Server imagen Agujero",
+            "ModelName": "Pymodbus Server",
+            "MajorMinorRevision": "0.1.2"
+        },
+        "ir_address": 0,
+        "hr_address": 0
+    },
+    "registro": {
+        "db_ir": "db/img_agujero.db",
+        "db_hr": "db/img_agujero.db",
+        "table_ir": "img_agujero_input_register",
+        "table_hr": "img_agujero_holding_register"
+    }
+}
